@@ -1,0 +1,8 @@
+[book]
+title = "Algebra"
+authors = ["james"]
+language = "en"
+
+[output.html]
+mathjax-support = true
+default-theme = "rust"
