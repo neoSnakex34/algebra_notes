@@ -49,3 +49,4 @@ considerate due funzioni \\( f: A \to B, g: B \to C\\) definiamo la loro composi
   g \circ f: A \to C
 \\]
 vale \\( (g \circ f)(a) \overset{\text{def}}{=} g(f(a)) \space \forall a \in A  \space .\square \\)
+
