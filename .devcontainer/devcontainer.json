@@ -1,8 +1,7 @@
-
 {
-  name:"rust alpine for mdbook",
+  "name": "rust alpine for mdbook",
   "build": {
-    "dockerfile": "../Dockerfile"
+    "dockerfile": "../Dockerfile",
   },
-  "runArgs": ["-p", "3000:3000"]
+  "runArgs": ["-p", "3000:3000"],
 }
