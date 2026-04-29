@@ -18,3 +18,11 @@ Valgono le seguenti condizioni:
 l'elemento \\( \sigma(n) \\) è detto **successivo** di \\( n \\);  
 il postulato \\( \mathbb{N}_3 \\) è detto principio di [_induzione matematica_](https://it.wikipedia.org/wiki/Principio_d%27induzione)
 \\( \space.\space \square  \\)
+
+## Operazione binaria 
+### def 
+Un'applicazione \\( S: S \times S \to S \\) è detta **operazione binaria** (anche[^1] _legge di composizione_, nella fattispecie **interna**), ossia una legge che associa ad ogni 
+coppia \\( (a, b) \in S \\) un ben determinato elemento di \\( S  \space.\space \square \\)
+> **Nota**: si parla di legge di composizione **esterna** nel caso \\( R \times S \to S \mid R \ne S \\) 
+>
+[^1]: M. Artin, _Algebra_, 1997 Bollati Boringhieri, p. 45.
