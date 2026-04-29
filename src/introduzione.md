@@ -8,7 +8,7 @@ indichiamo che la coppia \\( (a,b) \in \rho \\) come \\(a  \mathrel{\rho}  b \sp
 
 ## Relazioni Inverse 
 ### def 
-Se \mathrel{\rho} è una relazione da \\( A \\) a \\( B \\), la relazione **inversa** \\( \mathrel{\rho}^{-1} \\) è la relazione 
+Se \\( \mathrel{\rho} \\) è una relazione da \\( A \\) a \\( B \\), la relazione **inversa** \\( \mathrel{\rho}^{-1} \\) è la relazione 
 da \\( B \\) ad \\( A \\) definita da:
 \\[
   b \mathrel{\rho^{-1}} a \iff a \mathrel{\rho} b \space.\space \square 
