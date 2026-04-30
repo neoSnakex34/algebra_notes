@@ -1,7 +1,8 @@
 # Summary  
 # Algebra Elementare
 - [Introduzione](./introduzione.md)
-- [Numeri](./numeri.md)
-
+- [Elementi di teoria degli Insiemi](./insiemi.md)
+# Teoria dei numeri 
+- [Cenni di teoria dei numeri](./numeri.md)
 # Algebra Astratta
- - [Diego](./chapter_1.md)
+ - [STUB](./chapter_1.md)
