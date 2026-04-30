@@ -63,7 +63,7 @@ Una partizione di \\( A \\) determina su di esso una relazione di equivalenza, i
 cfr. Piacentini Cattaneo p. 15 
 
 #### sul concetto di partizione 
-Bisogna prestare attenzione ad intendere partizione nel senso ([insiemistico](https://it.wikipedia.org/wiki/Partizione_(teoria_degli_insiemi)) del termine.
+Bisogna prestare attenzione ad intendere partizione nel senso [insiemistico](https://it.wikipedia.org/wiki/Partizione_(teoria_degli_insiemi)) del termine.
 
 ##### def 
 Sia \\( A \\) un generico insieme, una sua **partizione** è una divisione in sottoinsiemi che soddisfa le seguenti proprietà:
