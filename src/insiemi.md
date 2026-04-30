@@ -1,11 +1,9 @@
 # Elementi di Teoria degli Insiemi  
 
-## Numeri Naturali \\( \mathbb{N} \\)
-Sia \\( \mathbb{N} \\) = {0, 1, 2, ...} l'insieme dei numeri naturali, diamo - attraverso gli _assiomi di peano_ - 
-la definizione formale di tale insieme.
-
+## Costruzione di \\( \mathbb{N} \\) utilizzando assiomi di Peano
+Formalizziamo l'insieme \\( \mathbb{N} = \\{ 1, 2, 3, \dots\\}\\), ovviamente noto come insieme dei **numeri naturali** attraverso l'aiuto degli [assiomi di Peano](https://it.wikipedia.org/wiki/Assiomi_di_Peano).
 ### def
-Data la terna \\( (\mathbb{N}, \sigma, 0)  \\), in cui \\( \mathbb{N} \\) è un insieme, \\( \sigma \\colon \mathbb{N} \to \mathbb{N}  \\) è un'applicazione e \\( 0  \in \mathbb{N}\\)  
+Data la terna \\( (\mathbb{N}, \sigma, 0)  \\), in cui \\( \mathbb{N} \\) è un insieme, \\( \sigma \\colon \mathbb{N} \to \mathbb{N}  \\) è una funzione e \\( 0  \in \mathbb{N}\\)  
 Valgono le seguenti condizioni:
 - \\( \mathbb{N}_1 \\): \\( \sigma \\) è iniettiva.
 - \\( \mathbb{N}_2 \\): \\( 0 \notin Im(\sigma) \\)
@@ -15,18 +13,29 @@ Valgono le seguenti condizioni:
 
   coincide con tutto \\( \mathbb{N} \\)
 
-l'elemento \\( \sigma(n) \\) è detto **successivo** di \\( n \\);  
-il postulato \\( \mathbb{N}_3 \\) è detto principio di [_induzione matematica_](https://it.wikipedia.org/wiki/Principio_d%27induzione).
+La definizione implica\\( \exists 0 \in \mathbb{N}, \nexists n \in \mathbb{N} \mid \sigma(n) = 0\\).
+
 \\( \space\space \square  \\)
+
+  
+Chiamiamo l'elemento \\( \sigma(n) \\) il **successivo** di \\( n \\).  
+il postulato \\( \mathbb{N}_3 \\) è detto principio di [_induzione matematica_](https://it.wikipedia.org/wiki/Principio_d%27induzione).
+
+
+Le definizioni \\( \mathbb{N}_1-\mathbb{N}_3 \\) sono tratte da[^1] e sono una formulazione degli assiomi di Peano.
 
 ## Operazione binaria 
 ### def 
-Un'applicazione \\( S: S \times S \to S \\) è detta **operazione binaria** (anche[^1] _legge di composizione_, nella fattispecie **interna**), ossia una legge che associa ad ogni 
-coppia \\( (a, b) \in S \\) un ben determinato elemento di \\( S.  \space\space \square \\)
-> **Nota**: si parla di legge di composizione **esterna** nel caso \\( R \times S \to S \mid R \ne S \\) 
+Un'applicazione \\( \star\colon S \times S \to S \\) è detta **operazione binaria** (anche[^2] _legge di composizione_, nella fattispecie **interna**).
+Trattasi di una funzione che associa ad ogni coppia \\( (a, b) \in S \\) un ben determinato elemento di \\( S \\). \\( \space\space \square  \\)
+
+In altre parole in un'operazione binaria interna, il codominio è l'insieme da cui parte la funzione.
+> **Nota**: si parla, invece, di legge di composizione **esterna** nel caso \\( R \times S \to S \mid R \ne S \\) 
+>> *Appunto*: un esempio di legge di composizione esterna sarà visto nel caso del **prodotto per uno scalare**: \\( \mathbb{K} \times V \to V \\)
 >
 
-### esempi 
+### esempi
+
 - Addizione in \\( \mathbb{Z} \\)
 \\[
   \\begin{aligned}
@@ -36,24 +45,13 @@ coppia \\( (a, b) \in S \\) un ben determinato elemento di \\( S.  \space\space 
 \\]  
 
 dove \\( c \overset{\text{def}}{=} a + b \\)  
-con \\( a, b, c \in \mathbb{Z} \\)
+con \\( a, b, c \in \mathbb{Z} \\)  
 
-- Unione tra sottoinsiemi 
-\\[
-  \\begin{aligned}
-  \cup\colon \mathcal{P}(X) &\times \mathcal{P}(X) \to \mathcal{P}(X) \\\\
-  (A, B) &\mapsto A \cup B
-  \\end{aligned}
-\\]  
-
-dove \\( X \\) è un insieme, \\( \mathcal{P}(X) \\) è l'insieme delle parti;  
-\\( C \overset{\text{def}}{=} A \cup B \\)  
-e vale \\( A, B, C \in \mathcal{P}(X) \\)
+per approfondimenti si veda[^3]
 
 ## Struttura algebrica 
 ### def 
-Chiamiamo **struttura algebrica** l'oggetto matematico composto da un insieme \\( S \\) che gode di 
-una o più _operazioni n-arie_ che soddisfano determinati assiomi. \\( \space\space \square  \\)
+Chiamiamo **struttura algebrica** l'oggetto matematico composto da un insieme \\( S \\) su cui è possibile definire una o più _operazioni n-arie_ che soddisfano determinati assiomi. \\( \space\space \square  \\)
 
 ## Operazioni definite su \\( \mathbb{N} \\)
 Tramite gli assiomi di Peano possiamo definire su \\( \mathbb{N} \\) due operazioni binarie. 
@@ -107,7 +105,7 @@ Ogni sottoinsieme dei numeri naturali non vuoto contiene un elemento che è mino
 
 ## Cardinalità di insiemi 
 ### def 
-Si dice che due insiemi \\( A, B \\) hanno la stessa **cardinalità** (o _potenza_) se è possibile stabilire tra essi una funzione bigettiva.\\( \space\space \square  \\).   
+Si dice che due insiemi \\( A, B \\) hanno la stessa **cardinalità** (o _potenza_) se è possibile definire tra essi una funzione bigettiva.\\( \space\space \square  \\)   
 
 ### proposizione 
 Due insiemi che hanno la stessa cardinalità sono in relazione di equivalenza tra loro, tale relazione si dice _di equipotenza_.   
@@ -118,7 +116,7 @@ A \mathrel{\sim} B \iff |A| = |B|
 \\]
 
 ### def 
-Un insieme \\( A \\) si dice **finito** se per qualche \\( n \in \mathbb{N}, n \neq 0 \implies |A| = |I_n| \\) dove \\( I_n = \\{0, 1, 2, ..., n-1\\} \\) si dice **infinito**, altrimenti. \\( \space\space \square  \\)
+Un insieme \\( A \\) si dice **finito** se per qualche \\( n \in \mathbb{N}, n \neq 0 \implies |A| = |I_n| \\) dove \\( I_n = \\{0, 1, 2, ..., n-1\\} \\). Si dice **infinito**, altrimenti[^4]. \\( \space\space \square  \\)
 
 ## Cardinalità finite e infinite 
 Nel caso di insiemi finiti, il concetto di cardinalità coincide con il numero di elementi che l'insieme contiene.   
@@ -182,8 +180,10 @@ Dato un qualunque insieme numerabile \\( A \\), la cardinalità di tale insieme 
 \\[
   |A| < |\mathcal{P}(A)|
 \\]
-è infatti noto[^2] \\( |\mathcal{P}(A)| = 2^{\mathbb{N}} = \mathfrak{c} \\).
+è infatti noto[^5] \\( |\mathcal{P}(A)| = 2^{\mathbb{N}} = \mathfrak{c} \\).
 
-
-[^1]: M. Artin, _Algebra_, 1997 Bollati Boringhieri, p. 45.
-[^2]: G.M. Piacentini Cattaneo, _Algebra, un approccio algoritmico_, 1996 Decibel, p. 35 e cfr. [anche](https://it.wikipedia.org/wiki/Cardinalit%C3%A0_del_continuo)
+[^1]: G.M Piacentini Cattaneo, _Algebra, un approccio algoritmico_, 1996 Decibel, p.23
+[^2]: M. Artin, _Algebra_, 1997 Bollati Boringhieri, p. 45.
+[^3]: G.M Piacentini Cattaneo, _Algebra, un approccio algoritmico_, 1996 Decibel, p.23
+[^4]: G.M Piacentini Cattaneo, _Algebra, un approccio algoritmico_, 1996 Decibel, p.31
+[^5]: G.M. Piacentini Cattaneo, _Algebra, un approccio algoritmico_, 1996 Decibel, p. 35 e cfr. [anche](https://it.wikipedia.org/wiki/Cardinalit%C3%A0_del_continuo)
