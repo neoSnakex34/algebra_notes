@@ -1,2 +1,0 @@
-right now it only needs md-book
-in the future i will provide a proper containerized env if needed
