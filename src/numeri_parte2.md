@@ -62,13 +62,36 @@ Si dice **massimo comun divisore** di \\( a, b \in \mathbb{Z} \\), indicato con 
 #### def 
 Si dicono **relativamente primi** o _coprimi_ i due \\( a, b \in \mathbb{Z} \text{ t.c. } \(a, b \) = 1\\). \\( \space\space \square  \\)
 
-#### lemma di esistenza di MCD
+#### lemma di esistenza di MCD ed identità di Bezout
 ##### prima parte
 Siano \\( a, b \in \mathbb{Z}, \\ a \neq 0 \lor b \neq 0  \implies \exists \(a, b \) \\).
 ##### seconda parte 
 Si possono trovare due interi \\( n, m \\) per cui \\( \(a, b \) = na + mb \\)
 
+> **Nota**: si utilizza il termine _combinazione lineare_, di solito di uso negli spazi vettoriali, per indicare una combinazione di due elementi di un anello \\( a, b \in R \\) per opportuni coefficienti \\( h, k \in \mathbb{Z} \\).
+  >> _Appunto_: risulta evidente che i due interi \\( n, m \\) del lemma di cui sopra formino una combinazione lineare con \\( a, b \\). 
+>
 
-#### dim 
-Si prenda in considerazione \\( \mathbb{Z}^{spec} \\) ovvero un insieme degli interi nella forma \\( na + mb \\) con \\( n, b \in \mathbb{Z} \\). Dal fatto che \\( a, b \\) non possono essere entrambi nulli segue che in \\( \mathbb{Z}^{spec} \\) ci sia qualche intero non nullo.  
-Siccome \\( n, m \\) spaziano su tutti gli interi, segue che se \\( x = na + mb \in \mathbb{Z}^{spec} \\) anche \\( -x = \(-n\)a+ \(-n\)b \in \mathbb{Z}^{spec} \\) è quindi possibile considerare una sezione di interi positivi su \\( \mathbb{Z}^{spec} \\). Vale dunque il [principio del buon ordinamento](insiemi.md#buon_ordinamento), quindi esiste un **minimo** intero positivo \\( c = na + mb \\), mostriamo che \\( c = \(a, b \) \\). # TODO
+#### pre dimostrazione 
+Si consideri un sottoinsieme \\( \mathbb{Z}^{li} \subset \mathbb{Z} \\) formato da interi esprimibili come combinazioni lineari di \\( a, b \\) su un anello (degli interi). Dal fatto che \\( a \\) o \\( b \\) non sono entrambi nulli segue che in questo insieme ci siano degli interi non nulli.
+Siccome \\( n, m \\) spaziano su tutti gli interi, è ovvio che se un generico \\( z = na + mb \in \mathbb{Z}^{li} \\) anche \\( -z = \(-n\)a+ \(-n\)b \in \mathbb{Z}^{li} \\) è quindi possibile considerare una sezione di interi positivi su \\( \mathbb{Z}^{li} \\).  
+Vale dunque il [principio del buon ordinamento](insiemi.md#buon_ordinamento), quindi  
+
+**Hp**  
+esiste un **minimo** intero positivo \\( c = na + mb \\).  
+
+**Th**  
+\\( c = \(a, b \) \\).  
+
+#### dim
+Sia \\( d \\) è un divisore comune di \\( a, b \\), per il lemma citato nella sezione dei divisori comuni, risulta \\( d \mid (na + mb) \implies d \mid c \\), resta da dimostrare che \\( c \\) sia un divisore comune per \\( a, b \\).  
+Preso un qualunque elemento \\( x \overset{\text{def}}{=} n_sa + m_sb \in \mathbb{Z}^{li} \\) dalla la definizione di divisione euclidea risulta \\( x = qc + r, \\ 0 \le r \lt c \\). Esprimendo in maniera esplicita i numeri \\( x \\) e \\( c \\) si ottiene:  
+\\( n_sa + m_sb = q \( na + mb \) + r \\), da cui segue che \\( r = a \( n_s - qn \) + b \( m_s - qm \) \\) ovvero \\( r \in \mathbb{Z}^{li} \\).  
+Se \\( r \\) fosse maggiore di zero avremmo una **contraddizione** di quanto formulato in **Hp** segue che \\( r = 0 \\).  
+Dunque \\( x = qc \\) che significa che c è un divisore di qualsiasi elemento \\( x \\) espresso come combinazione lineare, in particolare \\( x = a; \text{ se } n_s = 1, m_s = 0 \implies c \mid a \land x = b; \text{ se }  n_s = 0, m_s = 1 \implies c \mid b \\). Dato che \\( c \\) è un divisore comune ed è diviso da ogni altro divisore, risulta essere l'MCD\\( \space\space \square  \\)
+
+#### conclusioni 
+La scrittura di un MCD come combinazione lineare \\( na + mb \\) è chiamata **identità di Bezout**.
+
+#### corollario 
+Se \\( a, b \\) sono coprimi allora \\( 1 = na + mb \\) per opportuni \\( n, m \in \mathbb{Z} \\).
