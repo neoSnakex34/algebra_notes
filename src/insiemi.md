@@ -1,4 +1,5 @@
-# Elementi di Teoria degli Insiemi  
+# Elementi di Teoria degli Insiemi 
+Nel seguente capitolo verranno date per scontate le nozioni insiemistiche elementari già viste in numerevoli corsi precedenti, si rimanda - tuttavia - al capitolo quinto di [Discrete Mathematics, an open Introduction, 4th edition](https://discrete.openmathbooks.org/dmoi4.html) di Oscar Levin per un ripasso.
 
 ## Costruzione di \\( \mathbb{N} \\) utilizzando assiomi di Peano
 Formalizziamo l'insieme \\( \mathbb{N} = \\{ 1, 2, 3, \dots\\}\\), ovviamente noto come insieme dei **numeri naturali** attraverso l'aiuto degli [assiomi di Peano](https://it.wikipedia.org/wiki/Assiomi_di_Peano).
@@ -19,7 +20,7 @@ La definizione implica\\( \exists 0 \in \mathbb{N}, \nexists n \in \mathbb{N} \m
 
   
 Chiamiamo l'elemento \\( \sigma(n) \\) il **successivo** di \\( n \\).  
-il postulato \\( \mathbb{N}_3 \\) è detto principio di [_induzione matematica_](https://it.wikipedia.org/wiki/Principio_d%27induzione).
+il postulato \\( \mathbb{N}_3 \\) è detto principio di [_induzione matematica_](https://it.wikipedia.org/wiki/Principio_d%27induzione), cfr. anche Artin p. 413 "assioma di induzione".
 
 
 Le definizioni \\( \mathbb{N}_1-\mathbb{N}_3 \\) sono tratte da[^1] e sono una formulazione degli assiomi di Peano.

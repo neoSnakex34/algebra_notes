@@ -58,7 +58,18 @@ Indichiamo allora gli elementi di \\( \mathbb{Z} \\) come:
 \\].
 \\( \space\space \square  \\)
 
-## Alcune proprietà di somma e prodotto 
+## Proprietà valide in \\( \mathbb{Z} \\)
+### valore assoluto 
+#### def 
+\\[
+|x| \overset{\text{def}}{=} 
+\begin{cases}
+   x &\text{se } x \geq 0 \\\\
+   -x & \text{se } x < 0
+\end{cases}
+\\]
+\\( \space\space \square  \\)
+
 ### lemma 
 Presi \\( a, b \in \mathbb{Z} \implies \\)  
 \\[
@@ -68,10 +79,8 @@ Presi \\( a, b \in \mathbb{Z} \implies \\)
   (iii)& \\ (-a) \cdot (-b) = a \cdot b 
   \end{align}
 \\]
-
 ### dim intuitiva
-dalla definizione del prodotto su \\( \mathbb{Z} \\) introdotto sulle classi di equivalenza \\( \overline{(n, m)} \\) si possono verificare le identità poste nel lemma.  
-Per una spiegazione rigorosa si veda Piacentini Cattaneo p. 44 
-
+Dalla definizione del prodotto in \\( \mathbb{Z} \\), definito sulle classi di equivalenza \\( \overline{(n, m)} \\), è possibile verificare le identità poste nel lemma.  
+Per una spiegazione rigorosa si consulti Piacentini Cattaneo p. 44 o alternativamente Herstein p. 24 (ponendo particolare attenzione alle notazioni desuete). 
 
 [^1]: I.N Herstein, _Algebra_, 1982 Editori Riuniti, p. 24
