@@ -1,11 +1,11 @@
 # Cenni di teoria dei numeri 
 ## Costruzione di \\( \mathbb{Z} \\) partendo da \\( \mathbb{N} \\)
-Definita la [relazione di equivalenza](introduzione.md#rel_eq) \\( \rho \\) su \\( \mathbb{N} \times \mathbb{N} \\)  
+Si definisca la [relazione di equivalenza](introduzione.md#rel_eq) \\( \rho \\) su \\( \mathbb{N} \times \mathbb{N} \\) nel modo seguente:
 \\[
 (n, m) \mathrel{\rho} (n', m') \iff n + m' = m + n'
 \\]  
-è noto che l'insieme su cui abbiamo definito \\( \rho \\) viene **ripartito** in classi di equivalenza, che vogliamo indicare con \\( \overline{(n, m)} \\).  
-Scegliamo di usare come rappresentanti di queste classi degli elementi specifici:  
+essendo \\( \rho \\) una relazione di equivalenza, essa **ripartisce** in classi di equivalenza l'insieme su cui è definita, si indicano tali classi come \\( \overline{(n, m)} \\).  
+Si possono scegliere di usare come rappresentanti di queste classi degli elementi specifici:  
 \\[
 \begin{align}
   &(0, 0)\\\\
@@ -13,14 +13,14 @@ Scegliamo di usare come rappresentanti di queste classi degli elementi specifici
   &(0, 1),(0, 2),\dots,(0, n) 
 \end{align}
 \\]
-Diamo una possibile definizione di \\( \mathbb{Z} \\):
+Si definisce, tramite questa costruzione, l'insieme \\( \mathbb{Z} \\) degli interi:
 ### def
 \\[
 \mathbb{Z} \overset{\text{def}}{=} \( \mathbb{N} \times \mathbb{N} / \rho \) 
 \\]
-Ricordiamo che la notazione \\( S/\alpha \\) dove \\( S \\) è un insieme e \\( \alpha \\) è una relazione di equivalenza, indica un [insieme quoziente](introduzione.md#insieme_quoziente).
+Si ricorda che la notazione \\( S/\alpha \\) dove \\( S \\) è un insieme e \\( \alpha \\) è una relazione di equivalenza, indica un [insieme quoziente](introduzione.md#insieme_quoziente).
 ### def 
-Possiamo dividere \\( \mathbb{Z} \\) in questo modo: 
+Risulta possibile dividere \\( \mathbb{Z} \\) in questo modo: 
 \\[
 \begin{align}
  \mathbb{Z}&^+ \overset{\text{def}}{=}  \\{ \overline{(n, 0)} \mid n \in \mathbb{N}, n \neq 0\\}\\\\
@@ -28,7 +28,7 @@ Possiamo dividere \\( \mathbb{Z} \\) in questo modo:
  \mathbb{Z}&^- \overset{\text{def}}{=} \\{ \overline{(0, n)} \mid n \in \mathbb{N}, n \neq 0\\}
 \end{align}
 \\]  
-chiamiamo **interi positivi** gli elementi di \\( \mathbb{Z}^+ \\) e **interi negativi** gli elementi di \\( \mathbb{Z}^- \\). \\( \space\space \square  \\)
+prenderanno il nome di **interi positivi** gli elementi di \\( \mathbb{Z}^+ \\) e di **interi negativi** gli elementi di \\( \mathbb{Z}^- \\). \\( \space\space \square  \\)
 
 ## Operazioni definite su \\( \mathbb{Z} \\)
 ### Somma 
@@ -45,10 +45,10 @@ chiamiamo **interi positivi** gli elementi di \\( \mathbb{Z}^+ \\) e **interi ne
 \\]
 
 ### osservazione 
-Le due operazioni che abbiamo definito risultano **ben definite**[^1].
+Le due operazioni di cui sopra risultano **ben definite**[^1].
 
 ### def 
-Indichiamo allora gli elementi di \\( \mathbb{Z} \\) come:  
+Si definiscono allora gli elementi di \\( \mathbb{Z} \\) come:  
 \\[
   \begin{align}
   &\overline{(n, 0)} \overset{\text{def}}{=} n\\\\

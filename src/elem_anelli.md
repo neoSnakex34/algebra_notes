@@ -1,10 +1,10 @@
 
 #  brevi elementi di teoria degli Anelli 
-Introduciamo delle definizioni inerenti al linguaggio dell'algebra astratta per mantenere un filo conduttore con l'insieme \\( \mathbb{Z} \\). Determinate definizioni o proprietà sono di interesse anche nella teoria dei numeri. 
+Si vogliono ora introdurre alcune definizioni inerenti al linguaggio dell'algebra astratta per mantenere un filo conduttore con la trattazione riguardante l'insieme \\( \mathbb{Z} \\). Determinate definizioni o proprietà sono di interesse anche nella teoria dei numeri. 
 
 ## Anello 
 ### def  
-Si chiama anello la struttura algebrica composta dalla tripla \\( R, +, \cdot \\) dove R è un insieme e le operazioni binarie su esso definite, spesso chiamate somma e prodotto, hanno specifiche proprietà:
+Si chiama anello la struttura algebrica composta dalla tripla \\( R, +, \cdot \\) dove R è un insieme e le operazioni binarie su esso definite, spesso indicate con somma e prodotto, hanno specifiche proprietà:
 \\[
   \begin{align}
   R \neq \emptyset \newline
@@ -16,7 +16,10 @@ Si chiama anello la struttura algebrica composta dalla tripla \\( R, +, \cdot \\
   (a, b)& \mapsto ab \newline
   \end{align}
 \\]   
-In particolare (si veda capitolo successivo) \\( \(R, +) \\) è un **gruppo abeliano** e per il valgono la proprietà **distributiva** rispetto alla somma e la proprietà **associativa**. Nel caso in cui esista un elemento neutro per il prodotto, chiamiamo tale elemento \\( 1 \\) (talvolta indicato con \\( e_1 \\) per specificare che sia l'elemento neutro) e si parla di **anello unitario**, nel caso in cui valga la proprietà commutativa per il prodotto, ovvero \\( \(R, \cdot\) \\) sia un gruppo abeliano, parliamo allora di **anello commutativo**.
+In particolare (si veda capitolo successivo) \\( \(R, +) \\) è un **gruppo abeliano** e per il prodotto valgono la proprietà **distributiva** rispetto alla somma e la proprietà **associativa**. Nel caso in cui esista un elemento neutro per il prodotto, diciamo tale elemento \\( 1 \\) (talvolta indicato con \\( e_1 \\) per specificare che sia l'elemento neutro) e si parla di **anello unitario**, nel caso in cui valga la proprietà commutativa per il prodotto, ovvero \\( \(R, \cdot\) \\) sia un gruppo abeliano, parliamo allora di **anello commutativo**. \\( \space\space \square  \\)
+
+> **Nota:** \\( \mathbb{Z} \\) è un anello commutativo unitario.
+>
 
 ## divisori dello zero 
 ### def 

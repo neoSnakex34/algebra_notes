@@ -1,8 +1,8 @@
 # Elementi di Teoria degli Insiemi 
-Nel seguente capitolo verranno date per scontate le nozioni insiemistiche elementari già viste in numerevoli corsi precedenti, si rimanda - tuttavia - al capitolo quinto di [Discrete Mathematics, an open Introduction, 4th edition](https://discrete.openmathbooks.org/dmoi4.html) di Oscar Levin per un ripasso.
+Nel seguente capitolo verranno date per scontate le nozioni insiemistiche elementari affrontate durante l'educazione superiore o i primi corsi di triennale. Si rimanda - tuttavia - al capitolo quinto di [Discrete Mathematics, an open Introduction, 4th edition](https://discrete.openmathbooks.org/dmoi4.html) di Oscar Levin per un ripasso.
 
 ## Costruzione di \\( \mathbb{N} \\) utilizzando assiomi di Peano
-Formalizziamo l'insieme \\( \mathbb{N} = \\{ 1, 2, 3, \dots\\}\\), ovviamente noto come insieme dei **numeri naturali** attraverso l'aiuto degli [assiomi di Peano](https://it.wikipedia.org/wiki/Assiomi_di_Peano).
+Si vuole dare una definizione formale per l'insieme \\( \mathbb{N} = \\{ 1, 2, 3, \dots\\}\\) dei **numeri naturali** attraverso l'aiuto degli [assiomi di Peano](https://it.wikipedia.org/wiki/Assiomi_di_Peano).
 ### def
 Data la terna \\( (\mathbb{N}, \sigma, 0)  \\), in cui \\( \mathbb{N} \\) è un insieme, \\( \sigma \\colon \mathbb{N} \to \mathbb{N}  \\) è una funzione e \\( 0  \in \mathbb{N}\\)  
 Valgono le seguenti condizioni:
@@ -19,11 +19,11 @@ La definizione implica\\( \exists 0 \in \mathbb{N}, \nexists n \in \mathbb{N} \m
 \\( \space\space \square  \\)
 
   
-Chiamiamo l'elemento \\( \sigma(n) \\) il **successivo** di \\( n \\).  
+Si definisce l'elemento \\( \sigma(n) \\) come il **successivo** di \\( n \\).  
 il postulato \\( \mathbb{N}_3 \\) è detto principio di [_induzione matematica_](https://it.wikipedia.org/wiki/Principio_d%27induzione), cfr. anche Artin p. 413 "assioma di induzione".
 
 
-Le definizioni \\( \mathbb{N}_1-\mathbb{N}_3 \\) sono tratte da[^1] e sono una formulazione degli assiomi di Peano.
+Le definizioni \\( \mathbb{N}_1-\mathbb{N}_3 \\) sono tratte da[^1] e sono una formulazione sintetica degli assiomi di Peano.
 
 ## Operazione binaria 
 ### def 
@@ -52,10 +52,10 @@ per approfondimenti si veda[^3]
 
 ## Struttura algebrica 
 ### def 
-Chiamiamo **struttura algebrica** l'oggetto matematico composto da un insieme \\( S \\) su cui è possibile definire una o più _operazioni n-arie_ che soddisfano determinati assiomi. \\( \space\space \square  \\)
+Si dice **struttura algebrica** l'oggetto matematico composto da un insieme \\( S \\) su cui è possibile definire una o più _operazioni n-arie_ che soddisfano determinati assiomi. \\( \space\space \square  \\)
 
 ## Operazioni definite su \\( \mathbb{N} \\)
-Tramite gli assiomi di Peano possiamo definire su \\( \mathbb{N} \\) due operazioni binarie. 
+Tramite gli assiomi di Peano è possibile definire su \\( \mathbb{N} \\) due operazioni binarie. 
 
 ### Somma
 #### def
@@ -91,7 +91,7 @@ n \cdot m \overset{\text{def}}{=}
 \\( \space\space \square  \\)  
 il numero \\( n \mathbin{\cdot} m \\) è detto _prodotto_ di \\( n \\) ed \\( m \\).
 
-## Principio del buon ordinamento  
+## Principio del buon ordinamento  {#buon_ordinamento}
 ### trattazione intuitiva
 Ogni sottoinsieme dei numeri naturali non vuoto contiene un elemento che è minore di tutti gli altri, ovvero ammette un elemento **minimo**. Un tale insieme si dice _ben ordinato_. 
 
@@ -110,7 +110,7 @@ Si dice che due insiemi \\( A, B \\) hanno la stessa **cardinalità** (o _potenz
 
 ### proposizione 
 Due insiemi che hanno la stessa cardinalità sono in relazione di equivalenza tra loro, tale relazione si dice _di equipotenza_.   
-Indichiamo che due insiemi \\( A, B \\) sono equipotenti, così
+Si indica che due insiemi \\( A, B \\) sono equipotenti, in questo modo
 
 \\[
 A \mathrel{\sim} B \iff |A| = |B|
@@ -121,7 +121,7 @@ Un insieme \\( A \\) si dice **finito** se per qualche \\( n \in \mathbb{N}, n \
 
 ## Cardinalità finite e infinite 
 Nel caso di insiemi finiti, il concetto di cardinalità coincide con il numero di elementi che l'insieme contiene.   
-Nel caso di insiemi infiniti utilizziamo delle specifiche notazioni. 
+Nel caso di insiemi infiniti si utilizzano delle specifiche notazioni. 
 
 ### def 
 Un insieme si dice avere la **potenza del numerabile**, indicato con \\( \aleph_0 \\), se può essere messo in corrispondenza biunivoca con \\( \mathbb{N} \\). \\( \space\space \square  \\)
@@ -133,7 +133,7 @@ Risulta immediato che insiemi finiti ed insiemi infiniti che possono essere corr
 Hanno cardinalità \\( \aleph_0 \\) gli insiemi \\( \mathbb{N}, \mathbb{Z}, \mathbb{Q} \\). Nel caso di \\( \mathbb{R} \\), invece, si parla di **potenza del continuo**
 
 ### def 
-Chiamiamo **potenza del continuo** il numero cardinale \\( \mathfrak{c} = |\mathbb{R}| \space\space \square \\)
+Si dice **potenza del continuo** il numero cardinale \\( \mathfrak{c} = |\mathbb{R}| \space\space \square \\)
 
 ### proprietà 
 Risulta (si veda più avanti) che \\( \aleph_0 \lt \mathfrak{c} \\), in altre parole la cardinalità di \\( \mathbb{R} \\) non è numerabile.
@@ -154,7 +154,7 @@ Gli elementi del j-esimo insieme saranno:
   a_{j, 1}, a_{j, 2},...,a_{j, i},...
 \\]  
 
-Numeriamo adesso gli elementi di \\( A = \bigcup\limits_{h=1}^n A_h \\) per farlo disponiamo gli elementi di ogni insieme \\( A_h \\) su una tabella alla j-esima riga corrispondono gli elementi \\( a_{j, i} \in A_j \\):
+Si vogliono numerare adesso tutti gli elementi di \\( A = \bigcup\limits_{h=1}^n A_h \\) per farlo è opportuno disporre gli elementi che compongono ogni insieme \\( A_h \\) su una tabella, su cui alla j-esima riga corrisponderanno gli elementi \\( a_{j, i} \in A_j \\):
 \\[
 \begin{array}{cccccc}
 A_1 & a_{1,1} & a_{1,2} & a_{1,3} & \dots & a_{1,i} & \dots \\\\
@@ -166,15 +166,15 @@ A_j & a_{j,1} & a_{j,2} & a_{j,3} & \dots & a_{j,i} & \dots \\\\
 \end{array}
 \\]  
 
-Prendiamo la j-esima diagonale, ovvero:
+Si consideri ad esempio la j-esima diagonale, ovvero:
 \\[
   D_j = \\{ a_{h, k} \mid h + k = j + 1\\}
 \\]
-stabiliamo una corrispondenza biunivoca tra \\( A \\) ed \\( \mathbb{N} \\) considerando che ogni \\( a_{h, k} \in A \\) appartiene ad una sola diagonale, ovvero la \\( D_{h+k-1} \\), definiamo così la corrispondenza tra i due insiemi  
+Si può stabilire una corrispondenza biunivoca tra \\( A \\) ed \\( \mathbb{N} \\) considerando che ogni \\( a_{h, k} \in A \\) appartiene ad una sola diagonale, ovvero la \\( D_{h+k-1} \\), tramite questo ragionamento si può numerare A in relazione a \\( \mathbb{N} \\).  
 \\[
   a_{h, k} \mapsto 1 + 2 + 3 + \cdots + (h + k -2) + k
 \\]
-appare quindi evidente la corrispondenza bigettiva tra \\( A \\) ed \\( \mathbb{N} \\), segue che \\( A \\) sia numerabile. \\( \space\space \square  \\)
+Ogni elemento \\( a_{h, k} \\) risulta quindi in corrispondenza bigettiva tra \\( A \\) ed \\( \mathbb{N} \\). Questo procedimento prende il nome di **argomento diagonale di cantor** e dimostra che \\( A \\) sia numerabile. \\( \space\space \square  \\)
 
 ### teorema 
 Dato un qualunque insieme numerabile \\( A \\), la cardinalità di tale insieme risulta sempre inferiore alla cardinalità del suo insieme delle parti:

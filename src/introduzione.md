@@ -4,7 +4,7 @@
 ### def
 Una relazione tra due insiemi \\(A, B\\) è un sottoinsieme del loro prodotto cartesiano  
 \\[\rho \subseteq A \times B\\]
-indichiamo che la coppia \\( (a,b) \in \rho \\) come \\(a  \mathrel{\rho}  b. \space\space \square \\)  
+si indicherà che la coppia \\( (a,b) \in \rho \\) con la notazione \\(a  \mathrel{\rho}  b. \space\space \square \\)  
 
 ## Relazioni Inverse 
 ### def 
@@ -14,7 +14,7 @@ da \\( B \\) ad \\( A \\) definita da:
   b \mathrel{\rho^{-1}} a \iff a \mathrel{\rho} b. \space\space \square 
 \\]
 ## Relazioni di equivalenza {#rel_eq}
-Consideriamo \\( \rho \\) essere una generica relazione di equivalenza definita sull'insieme \\( A \\).
+Considerando \\( \rho \\), una generica relazione di equivalenza definita sull'insieme \\( A \\).
 ### def 
 Se valgono le seguenti proprietà:
 - **riflessività**: \\( a \mathrel{\rho} a, \forall a \in A \\) 
@@ -25,13 +25,13 @@ allora si parla di **relazione di equivalenza**, indicata con \\( \sim. \space\s
 
 ## Classi di equivalenza modulo 
 ### def 
-Sia \\( \mathrel{\rho} \\) una relazione di equivalenza definita su \\( A \\). Chiamiamo **classe di equivalenza modulo \\( \mathrel{\rho} \\)** di un 
-elemento \\( a \in A \\), che indicheremo come \\( [a] \\), l'insieme di tutti gli elementi di \\( A \\) che sono equivalenti ad \\( a \\):
+Sia \\( \mathrel{\rho} \\) una relazione di equivalenza definita su \\( A \\). Si chiama **classe di equivalenza modulo \\( \mathrel{\rho} \\)** di un 
+elemento \\( a \in A \\), indicata come \\( [a] \\), l'insieme di tutti gli elementi di \\( A \\) che sono equivalenti ad \\( a \\):
 \\[
   [a] \overset{\text{def}}{=} \\{ b \in A \mid b \mathrel{\rho} a\\}  \space\space \square 
 \\]  
 
-> **Nota:** talvolta le classi di equivalenza sono indicate anche come \\( [a]_\sim \\) per indicare la relazione di equivalenza a cui si riferiscono. 
+> **Nota:** talvolta le classi di equivalenza sono scritte anche come \\( [a]_\sim \\) per indicare la specifica relazione di equivalenza a cui si riferiscono. 
 #### proposizione 
 Sia \\( \mathrel{\rho} \\) una relazione di equivalenza definita su \\( A \\). Allora:
 \\[
@@ -44,7 +44,7 @@ Sia \\( \mathrel{\rho} \\) una relazione di equivalenza in \\( A \\). Le classi 
 
 ## Insieme quoziente {#insieme_quoziente}
 ### def 
-Chiamiamo **insieme quoziente** di \\( A \\) rispetto ad una data relazione di equivalenza \\( \alpha \\) l'insieme dato da tutte le classi di equivalenza modulo la relazione. 
+Si dice **insieme quoziente** di \\( A \\) rispetto ad una data relazione di equivalenza \\( \alpha \\) l'insieme dato da tutte le classi di equivalenza modulo la relazione. 
 Ovvero:  
 \\[
   A/\alpha \overset{\text{def}}{=} \\{ [a]_\alpha \mid a \in A \\}
@@ -80,7 +80,7 @@ Sia \\( A \\) un generico insieme, una sua **partizione** è una divisione in so
 <!--TODO esempi-->
 
 ## Relazioni d'ordine 
-Consideriamo \\( \rho \\) essere una generica relazione d'ordine definita su un insieme \\( A \\).
+Si consideri \\( \rho \\), una generica relazione d'ordine definita su un insieme \\( A \\).
 ### def
 Se valgono le seguenti proprietà:
 - **riflessività**: \\( a \mathrel{\rho} a, \forall a \in A \\) 
@@ -90,21 +90,21 @@ Se valgono le seguenti proprietà:
 allora si parla di **relazione d'ordine (parziale)**, indicata con \\( \le. \space\space \square \\)
 
 > **Nota:** una relazione d'ordine in cui vale anche 
-> - [totalità] \\( a \mathrel{\rho} b \lor b \mathrel{\rho} a, \forall a,b \in A \\)
+> - **totalità** \\( a \mathrel{\rho} b \lor b \mathrel{\rho} a, \forall a,b \in A \\)
 > è detta **di ordine totale**, indicata con \\( \lt. \space\space \square \\)
 
 ## Funzioni
 ### def
-Chiamiamo **funzione** un particolare tipo di relazione matematica tra un insieme \\( A \\) detto **dominio** e un insieme \\( B \\) detto **codominio** dove ogni elemento di \\( A \\) è associato ad un solo elemento di \\( B \\).  
+Si da il nome di **funzione** a quel particolare tipo di relazione matematica tra un insieme \\( A \\) detto **dominio** (l'insieme di partenza) e un insieme \\( B \\) detto **codominio** (l'insieme di arrivo) dove ogni elemento di \\( A \\) è associato ad **un solo** elemento di \\( B \\).  
 Indichiamo la funzione con \\[
 f: A \to B
-\\] l'elemento \\( x \in A\\) associato da \\( f \\) al codominio è scritto \\( f(x)=y \in B \\) ed è detto immagine dell'elemento \\( x \\).
+\\] l'elemento \\( x \in A\\) associato da \\( f \\) al codominio è scritto \\( f(x)=y \in B \\) ed è detto immagine dell'elemento \\( x \\), talvolta indicata con \\( Im(x) \\).
 \\( \space\space \square  \\)
 
 
 ## Proprietà delle funzioni 
 ### def
-Diciamo che una **funzione** \\( f: A \to B \\) è: 
+Si dice che una **funzione** \\( f: A \to B \\) è: 
  - **iniettiva**: se \\( \forall a, a' \in A, f(a) = f(a') \implies a = a' \\), detta anche __in__. \\( \space\space \square  \\)
  - **surgettiva**: se \\( Im(f) = B \\), detta anche __su__. \\( \space\space \square  \\)
  - **bigettiva**: se è sia __in__ che __su__, detta anche __biunivoca__. \\( \space\space \square  \\)
@@ -116,7 +116,7 @@ Diciamo che una **funzione** \\( f: A \to B \\) è:
  >
 ## Composizione di funzioni
 ### def
-Considerate due funzioni \\( f: A \to B, g: B \to C\\) definiamo la loro composizione come:
+Considerate due funzioni \\( f: A \to B, g: B \to C\\) è possibile comporle in una terza funzione, detta funzione composta:
 \\[
   g \circ f: A \to C
 \\]
