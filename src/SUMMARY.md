@@ -7,7 +7,7 @@
 # Teoria dei numeri 
 - [Cenni di teoria dei numeri](./numeri_introduzione.md)
   - [Brevi elementi di teoria degli anelli](./elem_anelli.md)
-- [Aritmetica in \\( \mathbb{Z} \\)](./numeri_parte2.md)
-
+- [Divisioni di interi, MCD](./numeri_parte2.md)
+- [Teorema fondamentale dell'aritmetica](./numeri_parte3.md)
 # Algebra Astratta
  - [STUB](./chapter_1.md)
