@@ -9,5 +9,6 @@
   - [Brevi elementi di teoria degli anelli](./elem_anelli.md)
 - [Divisioni di interi, MCD](./numeri_parte2.md)
 - [Teorema fondamentale dell'aritmetica](./numeri_parte3.md)
+- [Costruzione dei razionali, definizione di campo](./numeri_parte4.md)
 # Algebra Astratta
  - [STUB](./chapter_1.md)
