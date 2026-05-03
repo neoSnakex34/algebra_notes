@@ -32,7 +32,7 @@ elemento \\( a \in A \\), indicata come \\( [a] \\), l'insieme di tutti gli elem
 \\]  
 
 > **Nota:** talvolta le classi di equivalenza sono scritte anche come \\( [a]_\sim \\) per indicare la specifica relazione di equivalenza a cui si riferiscono. 
-#### proposizione 
+### proposizione 
 Sia \\( \mathrel{\rho} \\) una relazione di equivalenza definita su \\( A \\). Allora:
 \\[
   [a] = [b] \iff a \mathrel{\rho} b

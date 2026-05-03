@@ -1,4 +1,4 @@
-# Cenni di teoria dei numeri 
+# Cenni di teoria dei numeri  
 ## Costruzione di \\( \mathbb{Z} \\) partendo da \\( \mathbb{N} \\)
 Si definisca la [relazione di equivalenza](introduzione.md#rel_eq) \\( \rho \\) su \\( \mathbb{N} \times \mathbb{N} \\) nel modo seguente:
 \\[
@@ -16,7 +16,7 @@ Si possono scegliere di usare come rappresentanti di queste classi degli element
 Si definisce, tramite questa costruzione, l'insieme \\( \mathbb{Z} \\) degli interi:
 ### def
 \\[
-\mathbb{Z} \overset{\text{def}}{=} \( \mathbb{N} \times \mathbb{N} / \rho \) 
+\mathbb{Z} \overset{\text{def}}{=} \( \mathbb{N} \times \mathbb{N} \)/\rho 
 \\]
 Si ricorda che la notazione \\( S/\alpha \\) dove \\( S \\) è un insieme e \\( \alpha \\) è una relazione di equivalenza, indica un [insieme quoziente](introduzione.md#insieme_quoziente).
 ### def 
