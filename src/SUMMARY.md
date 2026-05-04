@@ -13,5 +13,8 @@
   - [Definizione di campo](./elem_campi.md)
   - [Immersione di anello in un campo](./numeri_parte5.md)
 - [Congruenze e loro applicazioni](./congruenze.md)
+  - [Insieme quoziente](./insieme_quoziente.md)
+  - [Proprietà delle congruenze](./proprieta_congruenze.md)
+  - [Toziente di Eulero, Piccolo Teorema di Fermat](./toziente.md)
 # Algebra Astratta
  - [STUB](./chapter_1.md)
