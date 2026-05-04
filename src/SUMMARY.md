@@ -19,4 +19,4 @@
   - [Proprietà delle congruenze](./Teoria-numeri/proprieta_congruenze.md)
   - [Toziente di Eulero, Piccolo Teorema di Fermat](./Teoria-numeri/toziente.md)
 # Algebra Astratta
- - [STUB](./chapter_1.md)
+ - [Teoria dei Gruppi](./Algebra-astratta/Teoria-gruppi/gruppi_1.md)
