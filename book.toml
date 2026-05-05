@@ -6,3 +6,4 @@ language = "en"
 [output.html]
 mathjax-support = true
 default-theme = "rust"
+additional-css = ["custom.css"]

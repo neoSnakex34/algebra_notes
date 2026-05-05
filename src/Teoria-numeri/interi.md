@@ -1,6 +1,7 @@
-# Cenni di teoria dei numeri  
+# Insieme \\( \mathbb{Z} \\) dei numeri interi 
+
 ## Costruzione di \\( \mathbb{Z} \\) partendo da \\( \mathbb{N} \\)
-Si definisca la [relazione di equivalenza](introduzione.md#rel_eq) \\( \rho \\) su \\( \mathbb{N} \times \mathbb{N} \\) nel modo seguente:
+Si definisca la [relazione di equivalenza](../Algebra-elementare/relazioni.md#rel_eq) \\( \rho \\) su \\( \mathbb{N} \times \mathbb{N} \\) nel modo seguente:
 \\[
 (n, m) \mathrel{\rho} (n', m') \iff n + m' = m + n'
 \\]  

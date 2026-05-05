@@ -1,5 +1,6 @@
 # Elementi di Teoria degli Insiemi 
-Nel seguente capitolo verranno date per scontate le nozioni insiemistiche elementari affrontate durante l'educazione superiore o i primi corsi di triennale. Si rimanda - tuttavia - al capitolo quinto di [Discrete Mathematics, an open Introduction, 4th edition](https://discrete.openmathbooks.org/dmoi4.html) di Oscar Levin per un ripasso.
+Si introdurranno ora alcune proprietà di teoria degli insiemi concentrandosi sull'insieme dei naturali.  
+Saranno invece date per scontate le nozioni insiemistiche elementari affrontate durante l'educazione superiore o i primi corsi di triennale. Si rimanda - tuttavia - al capitolo quinto di [Discrete Mathematics, an open Introduction, 4th edition](https://discrete.openmathbooks.org/dmoi4.html) di Oscar Levin per un ripasso.
 
 ## Costruzione di \\( \mathbb{N} \\) utilizzando assiomi di Peano
 Si vuole dare una definizione formale per l'insieme \\( \mathbb{N} = \\{ 1, 2, 3, \dots\\}\\) dei **numeri naturali** attraverso l'aiuto degli [assiomi di Peano](https://it.wikipedia.org/wiki/Assiomi_di_Peano).

@@ -1,0 +1,4 @@
+table tbody tr td:first-child {
+    font-weight: bold;
+    background-color: var(--table-header-bg);
+}
