@@ -3,14 +3,14 @@
 Ogni numero intero \\( n > 1 \\) è un numero primo oppure è esprimibile (_può essere fattorizzato in_) come prodotto di numeri primi. _Al netto dell'ordine_ tale scrittura è **unica**.  
 
 Il teorema viene diviso in due sottoenunciati per comodità dimostrativa[^1]. 
-### primo enunciato - esistenza della fattorizzazione
+### Primo enunciato - esistenza della fattorizzazione
 \\\( \forall a \in \mathbb{Z}_{\ge 2}, \exists b = p_1^{\alpha_1}p_2^{\alpha_2} \dots p_t^{\alpha_t} \mid b = a \\).  
 Dove \\( p_1 > p_2 > p_3, \dots \\) sono numeri primi ed ogni \\( \alpha_i > 0 \\)
 
-### secondo enunciato - unicità della fattorizzazione 
+### Secondo enunciato - unicità della fattorizzazione 
 La rappresentazione di \\( a \\) espressa come \\( b \\) nel primo enunciato è unica. 
 
-### dim - esistenza 
+### Dim - esistenza 
 Si procede per induzione (e conseguente equivalenza con il principio del buon ordinamento)
 - passo base: \\( \(a = 2\) \\), \\( 2 \\) è **primo** \\( \implies b = p_i^{a_i} = 2 \\)
 - ipotesi induttiva:  \\( \forall r \in \mathbb{Z} \mid 2 \le r \le n \\) vale il primo enunciato
@@ -20,7 +20,7 @@ Si procede per induzione (e conseguente equivalenza con il principio del buon or
 
 \\(  \space\space \square \\)
 
-### dim - unicità
+### Dim - unicità
 Si vuole procedere per induzione sul numero \\( m \\) di fattori primi.
 - passo base: (\\( m = 1\\)) fattori  
 Se \\( n \\) ha \\( m = 1 \\) come numero di fattori \\( \implies m \\) è primo, \\( p > 1 \\).  

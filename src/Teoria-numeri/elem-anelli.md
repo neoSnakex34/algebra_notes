@@ -3,7 +3,7 @@
 Si vogliono ora introdurre alcune definizioni inerenti al linguaggio dell'algebra astratta per mantenere un filo conduttore con la trattazione riguardante l'insieme \\( \mathbb{Z} \\). Determinate definizioni o proprietà sono di interesse anche nella teoria dei numeri. 
 
 ## Anello 
-### def  
+### Def  
 Si chiama anello la struttura algebrica composta dalla tripla \\( R, +, \cdot \\) dove R è un insieme che gode di due operazioni binarie, somma e prodotto. Valgono le seguenti caratteristiche: 
 \\[
   \begin{align}
@@ -24,12 +24,12 @@ In particolare (si veda capitolo successivo) \\( \(R, +) \\) è un **gruppo abel
 > **Nota:** definizioni più rigorose saranno date nel capitolo su anelli e campi.
 >
 
-## divisori dello zero 
-### def 
+## Divisori dello zero 
+### Def 
 Sia \\( a \in R \\), dove \\( \(R, +, \cdot \) \\) è un anello commutativo, se \\( a \neq 0 \land \exists b \in R, b \neq 0 \text { t.c. } ab = 0 \\) si dice che \\( a \\) è un divisore dello zero. 
 \\( \space\space \square  \\)
-## dominio di integrità 
-### def 
+## Dominio di integrità 
+### Def 
 Chiamiamo **dominio di integrità** un'anello commutativo che non possiede divisori dello zero. \\( \space\space \square  \\)
 
 > **Nota**: è facile vedere che \\( \mathbb{Z} \\) sia un dominio di integrità.

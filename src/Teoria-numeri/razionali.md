@@ -7,7 +7,7 @@ Si vuole introdurre su \\( \mathbb{Z} \times \mathbb{Z}^+ \\) una relazione \\( 
 \\]  
 tramite la relazione \\( \rho \\) si da una definizione di \\( \mathbb{Q} \\):
 
-### def 
+### Def 
 \\[
 \mathbb{Q} \overset{\text{def}}{=} (\mathbb{Z} \times \mathbb{Z}^+)/\rho
 \\]
@@ -18,14 +18,14 @@ equivalentemente con quanto fatto per i numeri interi, risulteranno essere eleme
 
 ### Somma   
 
-#### def 
+#### Def 
 \\[
   \overline{(a, b)} + \overline{(c, d)} \overset{\text{def}}{=} \overline{(ad+bc. bd)}
 \\]
 
 ### Prodotto   
 
-#### def
+#### Def
 \\[
   \overline{(a, b)} \cdot \overline{(c, d)} \overset{\text{def}}{=} \overline{(ac, bd)}
 \\]

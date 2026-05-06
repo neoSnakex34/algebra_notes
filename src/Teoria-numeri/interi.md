@@ -15,12 +15,12 @@ Si possono scegliere di usare come rappresentanti di queste classi degli element
 \end{align}
 \\]
 Si definisce, tramite questa costruzione, l'insieme \\( \mathbb{Z} \\) degli interi:
-### def
+### Def
 \\[
 \mathbb{Z} \overset{\text{def}}{=} \( \mathbb{N} \times \mathbb{N} \)/\rho 
 \\]
 Si ricorda che la notazione \\( S/\alpha \\) dove \\( S \\) è un insieme e \\( \alpha \\) è una relazione di equivalenza, indica un [insieme quoziente](introduzione.md#insieme_quoziente).
-### def 
+### Def
 Risulta possibile dividere \\( \mathbb{Z} \\) in questo modo: 
 \\[
 \begin{align}
@@ -33,22 +33,22 @@ prenderanno il nome di **interi positivi** gli elementi di \\( \mathbb{Z}^+ \\) 
 
 ## Operazioni definite su \\( \mathbb{Z} \\)
 ### Somma 
-#### def
+#### Def
 \\[
   \overline{(n, m)} + \overline{(n', m')} \overset{\text{def}}{=} \overline{(n + n', m + m')}
 \\]
 
 ### Prodotto
-#### def 
+#### Def
 
 \\[
   \overline{(n, m)} \cdot \overline{(n', m')} \overset{\text{def}}{=} \overline{(nn' + mm', n'm + nm')}
 \\]
 
-### osservazione 
+### Oss 
 Le due operazioni di cui sopra risultano **ben definite**[^1].
 
-### def 
+### Def
 Si definiscono allora gli elementi di \\( \mathbb{Z} \\) come:  
 \\[
   \begin{align}
@@ -60,8 +60,8 @@ Si definiscono allora gli elementi di \\( \mathbb{Z} \\) come:
 \\( \space\space \square  \\)
 
 ## Proprietà valide in \\( \mathbb{Z} \\)
-### valore assoluto 
-#### def 
+### Valore assoluto 
+#### Def
 \\[
 |x| \overset{\text{def}}{=} 
 \begin{cases}
@@ -71,7 +71,7 @@ Si definiscono allora gli elementi di \\( \mathbb{Z} \\) come:
 \\]
 \\( \space\space \square  \\)
 
-### lemma 
+### Lemma 
 Presi \\( a, b \in \mathbb{Z} \implies \\)  
 \\[
   \begin{align}
@@ -80,7 +80,7 @@ Presi \\( a, b \in \mathbb{Z} \implies \\)
   (iii)& \\ (-a) \cdot (-b) = a \cdot b 
   \end{align}
 \\]
-### dim intuitiva
+### Dim intuitiva
 Dalla definizione del prodotto in \\( \mathbb{Z} \\), definito sulle classi di equivalenza \\( \overline{(n, m)} \\), è possibile verificare le identità poste nel lemma.  
 Per una spiegazione rigorosa si consulti Piacentini Cattaneo p. 44 o alternativamente Herstein p. 24 (ponendo particolare attenzione alle notazioni desuete). 
 

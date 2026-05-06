@@ -1,4 +1,4 @@
-# Teoria dei Gruppi
+# Introduzione alla teoria dei gruppi
 
 ## Gruppo 
 ### def 
