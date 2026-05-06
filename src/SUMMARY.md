@@ -31,3 +31,4 @@
     - [Gruppi](./Algebra-astratta/Teoria-gruppi/gruppi.md)
     - [Tabelle di Cayley](./Algebra-astratta/Teoria-gruppi/cayley.md)
     - [Sottogruppi](./Algebra-astratta/Teoria-gruppi/sottogruppi.md)
+    - [Sottogruppo ciclico](./Algebra-astratta/Teoria-gruppi/sottogruppo-ciclico.md)

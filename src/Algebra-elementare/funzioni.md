@@ -1,7 +1,7 @@
 # Funzioni matematiche
 
 ## Funzione
-### def
+### Def
 Si da il nome di **funzione** a quel particolare tipo di relazione matematica tra un insieme \\( A \\) detto **dominio** (l'insieme di partenza) e un insieme \\( B \\) detto **codominio** (l'insieme di arrivo) dove ogni elemento di \\( A \\) è associato ad **un solo** elemento di \\( B \\).  
 Indichiamo la funzione con \\[
 f: A \to B
@@ -10,7 +10,7 @@ f: A \to B
 
 
 ## Proprietà delle funzioni 
-### def
+### Def
 Si dice che una **funzione** \\( f: A \to B \\) è: 
  - **iniettiva**: se \\( \forall a, a' \in A, f(a) = f(a') \implies a = a' \\), detta anche __in__. \\( \space\space \square  \\)
  - **surgettiva**: se \\( Im(f) = B \\), detta anche __su__. \\( \space\space \square  \\)
@@ -22,7 +22,7 @@ Si dice che una **funzione** \\( f: A \to B \\) è:
   >> *Appunto*: i termini **su** e **in** sono abbastanza arcaici e poco utilizzati ad oggi, è inoltre importante notare che la definizione stessa di funzione possiede due connotati leggermente differenti, a noi interessa quello più comune dove insieme di partenza e di arrivo sono ben specificati.
  >
 ## Composizione di funzioni
-### def
+### Def
 Considerate due funzioni \\( f: A \to B, g: B \to C\\) è possibile comporle in una terza funzione, detta funzione composta:
 \\[
   g \circ f: A \to C

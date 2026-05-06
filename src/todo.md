@@ -5,4 +5,4 @@
 - [ ] finire fermat e eulero 
 
 - [ ] risoluzione di congruenze lineari
-- [ ] tabella di cayley per i gruppi
+- [x] tabella di cayley per i gruppi

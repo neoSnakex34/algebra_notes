@@ -1,13 +1,13 @@
 # Relazioni matematiche 
 
 ## Relazione
-### def
+### Def
 Una relazione tra due insiemi \\(A, B\\) è un sottoinsieme del loro prodotto cartesiano  
 \\[\rho \subseteq A \times B\\]
 si indicherà che la coppia \\( (a,b) \in \rho \\) con la notazione \\(a  \mathrel{\rho}  b. \space\space \square \\)  
 
 ## Relazione Inversa 
-### def 
+### Def 
 Se \\( \mathrel{\rho} \\) è una relazione da \\( A \\) a \\( B \\), la relazione **inversa** \\( \mathrel{\rho}^{-1} \\) è la relazione[^1]
 da \\( B \\) ad \\( A \\) definita da:
 \\[
@@ -15,7 +15,7 @@ da \\( B \\) ad \\( A \\) definita da:
 \\]
 ## Relazione di equivalenza {#rel_eq}
 Considerando \\( \rho \\), una generica relazione di equivalenza definita sull'insieme \\( A \\).
-### def 
+### Def 
 Se valgono le seguenti proprietà:
 - **riflessività**: \\( a \mathrel{\rho} a, \forall a \in A \\) 
 - **simmetria**: \\( a \mathrel{\rho} b \implies b \mathrel{\rho} a, \forall a, b \in A \\) 
@@ -24,7 +24,7 @@ Se valgono le seguenti proprietà:
 allora si parla di **relazione di equivalenza**, indicata con \\( \sim. \space\space \square  \\)
 
 ## Classi di equivalenza modulo 
-### def 
+### Def 
 Sia \\( \mathrel{\rho} \\) una relazione di equivalenza definita su \\( A \\). Si chiama **classe di equivalenza modulo \\( \mathrel{\rho} \\)** di un 
 elemento \\( a \in A \\), indicata come \\( [a] \\), l'insieme di tutti gli elementi di \\( A \\) che sono equivalenti ad \\( a \\):
 \\[
@@ -32,40 +32,40 @@ elemento \\( a \in A \\), indicata come \\( [a] \\), l'insieme di tutti gli elem
 \\]  
 
 > **Nota:** talvolta le classi di equivalenza sono scritte anche come \\( [a]_\sim \\) per indicare la specifica relazione di equivalenza a cui si riferiscono. 
-### proposizione 
+### Proposizione 
 Sia \\( \mathrel{\rho} \\) una relazione di equivalenza definita su \\( A \\). Allora:
 \\[
   [a] = [b] \iff a \mathrel{\rho} b
 \\]
 
-### teorema 
+### Teorema 
 Sia \\( \mathrel{\rho} \\) una relazione di equivalenza in \\( A \\). Le classi di equivalenza di \\( A \\) modulo \\( \mathrel{\rho} \\) costituiscono una 
 [_partizione_](https://it.wikipedia.org/wiki/Partizione_(teoria_degli_insiemi)) di \\( A \\)
 
 ## Insieme quoziente {#insieme_quoziente}
-### def 
+### Def 
 Si dice **insieme quoziente** di \\( A \\) rispetto ad una data relazione di equivalenza \\( \alpha \\) l'insieme dato da tutte le classi di equivalenza modulo la relazione. 
 Ovvero:  
 \\[
   A/\alpha \overset{\text{def}}{=} \\{ [a]_\alpha \mid a \in A \\}
 \\]
 
-### teorema 
+### Teorema 
 Le classi di equivalenza di una data relazione \\( \alpha \\) definita su \\( A \\) partizionano l'insieme \\( A \\).
 
-### dim 
+### Dim 
 cfr. Piacentini Cattaneo p. 15 
 
-### teorema 
+### Teorema 
 Una partizione di \\( A \\) determina su di esso una relazione di equivalenza, i sottoinsiemi della partizione risultano essere le sue classi di equivalenza 
 
-### dim 
+### Dim 
 cfr. Piacentini Cattaneo p. 15 
 
-## sul concetto di partizione 
+## Sul concetto di partizione 
 Bisogna prestare attenzione ad intendere partizione nel senso [insiemistico](https://it.wikipedia.org/wiki/Partizione_(teoria_degli_insiemi)) del termine. 
 
-### def 
+### Def 
 Sia \\( A \\) un generico insieme, una sua **partizione** è una divisione in sottoinsiemi che soddisfa le seguenti proprietà:
 
 \\[
@@ -81,7 +81,7 @@ Sia \\( A \\) un generico insieme, una sua **partizione** è una divisione in so
 
 ## Relazioni d'ordine 
 Si consideri \\( \rho \\), una generica relazione d'ordine definita su un insieme \\( A \\).
-### def
+### Def
 Se valgono le seguenti proprietà:
 - **riflessività**: \\( a \mathrel{\rho} a, \forall a \in A \\) 
 - **antisimmetria**: \\( a \mathrel{\rho} b \mathrel{\land} b \mathrel{\rho} a \implies a = b, \forall a,b \in A\\)

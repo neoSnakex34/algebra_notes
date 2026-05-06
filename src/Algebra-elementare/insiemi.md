@@ -4,7 +4,7 @@ Saranno invece date per scontate le nozioni insiemistiche elementari affrontate 
 
 ## Costruzione di \\( \mathbb{N} \\) utilizzando assiomi di Peano
 Si vuole dare una definizione formale per l'insieme \\( \mathbb{N} = \\{ 1, 2, 3, \dots\\}\\) dei **numeri naturali** attraverso l'aiuto degli [assiomi di Peano](https://it.wikipedia.org/wiki/Assiomi_di_Peano).
-### def
+### Def
 Data la terna \\( (\mathbb{N}, \sigma, 0)  \\), in cui \\( \mathbb{N} \\) è un insieme, \\( \sigma \\colon \mathbb{N} \to \mathbb{N}  \\) è una funzione e \\( 0  \in \mathbb{N}\\)  
 Valgono le seguenti condizioni:
 - \\( \mathbb{N}_1 \\): \\( \sigma \\) è iniettiva.
@@ -27,7 +27,7 @@ il postulato \\( \mathbb{N}_3 \\) è detto principio di [_induzione matematica_]
 Le definizioni \\( \mathbb{N}_1-\mathbb{N}_3 \\) sono tratte da[^1] e sono una formulazione sintetica degli assiomi di Peano.
 
 ## Operazione binaria 
-### def 
+### Def 
 Un'applicazione \\( \star\colon S \times S \to S \\) è detta **operazione binaria** (anche[^2] _legge di composizione_, nella fattispecie **interna**).
 Trattasi di una funzione che associa ad ogni coppia \\( (a, b) \in S \\) un ben determinato elemento di \\( S \\). \\( \space\space \square  \\)
 
@@ -36,7 +36,7 @@ In altre parole in un'operazione binaria interna, il codominio è l'insieme da c
 >> *Appunto*: un esempio di legge di composizione esterna sarà visto nel caso del **prodotto per uno scalare**: \\( \mathbb{K} \times V \to V \\)
 >
 
-### esempi
+### Esempi
 
 - Addizione in \\( \mathbb{Z} \\)
 \\[
@@ -52,14 +52,14 @@ con \\( a, b, c \in \mathbb{Z} \\)
 per approfondimenti si veda[^3]
 
 ## Struttura algebrica 
-### def 
+### Def 
 Si dice **struttura algebrica** l'oggetto matematico composto da un insieme \\( S \\) su cui è possibile definire una o più _operazioni n-arie_ che soddisfano determinati assiomi. \\( \space\space \square  \\)
 
 ## Operazioni definite su \\( \mathbb{N} \\)
 Tramite gli assiomi di Peano è possibile definire su \\( \mathbb{N} \\) due operazioni binarie. 
 
 ### Somma
-#### def
+#### Def
 Comunque presi \\( n, m \in \mathbb{N} \\), allora vale
 \\[
 \begin{aligned}
@@ -73,12 +73,12 @@ n & \text{se } m = 0
 \\( \space\space \square  \\)  
 il numero \\( n \mathbin{+} m \\) è detto _somma_ di \\( n \\) ed \\( m \\).
 
-#### corollario
+#### Corollario
 Dalla definizione di cui sopra segue:  
 \\( \sigma(n) = n \mathbin{+} 1 \\) dove l'elemento \\( 1 = \sigma(0) \\).
 
 ### Prodotto
-#### def 
+#### Def 
 Comunque presi \\( n, m \in \mathbb{N} \\), allora vale 
 \\[
 \begin{aligned}
@@ -100,16 +100,16 @@ Ogni sottoinsieme dei numeri naturali non vuoto contiene un elemento che è mino
 > principio di induzione. 
 >
 
-### def 
+### Def 
 \\[
   X \subseteq \mathbb{N} \implies \bar{a} \in A \mid \bar{a} \leq a, \forall a \in A \space\space \square 
 \\]  
 
 ## Cardinalità di insiemi 
-### def 
+### Def 
 Si dice che due insiemi \\( A, B \\) hanno la stessa **cardinalità** (o _potenza_) se è possibile definire tra essi una funzione bigettiva.\\( \space\space \square  \\)   
 
-### proposizione 
+### Proposizione 
 Due insiemi che hanno la stessa cardinalità sono in relazione di equivalenza tra loro, tale relazione si dice _di equipotenza_.   
 Si indica che due insiemi \\( A, B \\) sono equipotenti, in questo modo
 
@@ -117,32 +117,32 @@ Si indica che due insiemi \\( A, B \\) sono equipotenti, in questo modo
 A \mathrel{\sim} B \iff |A| = |B|
 \\]
 
-### def 
+### Def 
 Un insieme \\( A \\) si dice **finito** se per qualche \\( n \in \mathbb{N}, n \neq 0 \implies |A| = |I_n| \\) dove \\( I_n = \\{0, 1, 2, ..., n-1\\} \\). Si dice **infinito**, altrimenti[^4]. \\( \space\space \square  \\)
 
 ## Cardinalità finite e infinite 
 Nel caso di insiemi finiti, il concetto di cardinalità coincide con il numero di elementi che l'insieme contiene.   
 Nel caso di insiemi infiniti si utilizzano delle specifiche notazioni. 
 
-### def 
+### Def 
 Un insieme si dice avere la **potenza del numerabile**, indicato con \\( \aleph_0 \\), se può essere messo in corrispondenza biunivoca con \\( \mathbb{N} \\). \\( \space\space \square  \\)
 
-### corollario
+### Corollario
 Risulta immediato che insiemi finiti ed insiemi infiniti che possono essere correlati biunivocamente ad \\( \mathbb{N} \\) sono tutti insiemi numerabili.
 
-### esempi 
+### Esempi 
 Hanno cardinalità \\( \aleph_0 \\) gli insiemi \\( \mathbb{N}, \mathbb{Z}, \mathbb{Q} \\). Nel caso di \\( \mathbb{R} \\), invece, si parla di **potenza del continuo**
 
-### def 
+### Def 
 Si dice **potenza del continuo** il numero cardinale \\( \mathfrak{c} = |\mathbb{R}| \space\space \square \\)
 
-### proprietà 
+### Proprietà 
 Risulta (si veda più avanti) che \\( \aleph_0 \lt \mathfrak{c} \\), in altre parole la cardinalità di \\( \mathbb{R} \\) non è numerabile.
 
-### teorema 
+### Teorema 
 L'unione di un numero finito oppure di una infinità numerabile di insiemi numerabili ha la potenza del numerabile.
 
-### dim 
+### Dim 
 Sia \\( A_1, A_2,\dots, A_j,\dots \\) una infinità numerabile di _insiemi numerabili_ a **due a due disgiunti**. 
 
 ovvero:
@@ -177,7 +177,7 @@ Si può stabilire una corrispondenza biunivoca tra \\( A \\) ed \\( \mathbb{N} \
 \\]
 Ogni elemento \\( a_{h, k} \\) risulta quindi in corrispondenza bigettiva tra \\( A \\) ed \\( \mathbb{N} \\). Questo procedimento prende il nome di **argomento diagonale di cantor** e dimostra che \\( A \\) sia numerabile. \\( \space\space \square  \\)
 
-### teorema 
+### Teorema 
 Dato un qualunque insieme numerabile \\( A \\), la cardinalità di tale insieme risulta sempre inferiore alla cardinalità del suo insieme delle parti:
 \\[
   |A| < |\mathcal{P}(A)|
